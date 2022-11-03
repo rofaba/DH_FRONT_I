@@ -1,4 +1,4 @@
-# DH_FRONT_I  Clase 8 - Propiedades CSS - Ejercitación personal.
+# Clase 8 - Propiedades CSS - Ejercitación personal.
 
 Desafío:
 Utilizando como guía el CV de Batman realizado la clase anterior les proponemos que
