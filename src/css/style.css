@@ -44,6 +44,7 @@ section {
   font-family: 'Roboto', sans-serif;
   font-size: 25px;
   font-weight: 100;
+  padding-top: 20px;
   margin-bottom: 30px;
 }
 .textoSecundario {
@@ -59,9 +60,11 @@ section {
   font-family: 'Roboto', sans-serif;
   font-size: 25px;
   font-weight: 100;
+  padding-bottom: 50px;
 }
 #toMore {
     padding-top: 20px;
+   
 }
 footer {
   margin-top: 70px;
