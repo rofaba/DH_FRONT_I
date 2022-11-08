@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background-color: #e5e5e5; */
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.barraSuperior {
+  font-size: 15px;
+  background-color: #1cd1b0;
+  color: #000000;
+  padding-top: 10px;
+  padding-left: 20px;
+  width: 1024px;
+  height: 38px;
+}
+.segundaBarra {
+  background-color: #00669f;
+  color: #000000;
+  box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+  width: 1024px;
+  height: 101px;
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  position: fixed;
+  top: 38px;
+}
+
+#bat_image1 {
+  position: relative;
+  top: 325px;
+  left: 105px;
+  z-index: 10;
+}
+#harley_image {
+  position: relative;
+  top: 325px;
+  left: 315px;
+  z-index: 10;
+}
+
+#bat_image3 {
+  position: relative;
+  top: 325px;
+  left: 505px;
+  z-index: 10;
+}
+#heart {
+  position: absolute;
+  top: 20px;
+  left: 25px;
+}
+
+#heart2 {
+  position: absolute;
+  top: 20px;
+  left: 25px;
+}
+
+#heart3 {
+  position: absolute;
+  top: 20px;
+  left: 25px;
+}
+
+#primero {
+  width: 300px;
+  border-radius: 16px 16px 0px 0px;
+  position: absolute;
+  left: 32px;
+  top: 235px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#segundo {
+  width: 300px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 16px 16px 0px 0px;
+  position: absolute;
+  left: 362px;
+  top: 235px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#tercero {
+  width: 300px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 16px 16px 0px 0px;
+  position: absolute;
+  left: 692px;
+  top: 235px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.texto {
+  height: 350px;
+  padding: 70px 20px 80px;
+  background-color: #f3f3f3;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+#batman {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+#harley {
+  text-transform: capitalize;
+  font-weight: 400;
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+button {
+  background-color: #00669f;
+  color: #f3f3f3;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 17.58px;
+  width: 128.78px;
+  height: 48.52px;
+  padding: 10px 25px;
+  margin: 50px 60px 0px;
+}
+footer {
+  background-color: #00669f;
+  padding: 15px;
+  color: #fff9f9;
+  width: 1024px;
+  height: 51px;
+  position: relative;
+  top: 750px;
+}
