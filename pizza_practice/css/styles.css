@@ -74,6 +74,19 @@ main {
 
 }
 
+.texto_over {
+    font-weight: 700;
+    font-size: 24px;
+    color: #fc200c;
+    position: absolute;
+    top: 155px;
+    left: 38.98px
+}
+
+#shop{
+    color: #FFFFFF
+}
+
 #foto_moto {
     width: 490px;
     height: 370px;
