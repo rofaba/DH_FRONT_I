@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+
+}
+
+body {
+    width: 1024px;
+    
+}
+main{
+    background-color: #e5e5e5;
+
+}
+
+.banner {
+    display:flex;
+    justify-content: space-between;
+    background-color: #000000;
+    padding:10px;
+}
+.banner_inferior {
+        display:flex;
+        justify-content: space-between;
+        background-color: #000000;
+        height: 190px;        
+        padding-right: 25px;
+        padding-left: 10px;
+        padding-top: 25px;
+        padding-bottom: 40px;
+    } 
+
+
+li {
+    padding: 7px;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+}
+
+.lista {
+    display:flex;
+    align-items: center;
+    color: #f3f3f3
+}
+
+.logo_pizza {
+    padding: 10px;
+}
+.principal {
+    height: 460px;
+    display: flex;
+    
+}
+#foto_moto{
+    width: 490px;
+    height: 370px;
+    margin-top: 45px;
+}
+
+#pizza_falling {
+    width:92px;
+    height: 129px;
+}
+.section1{
+    width: 490px;
+    height: 370px;
+    margin-left: 5px;
+    margin-right: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.section2 {
+    width: 490px;
+    height: 370px;
+    background-color: #FFFFFF;
+    padding-top: 20px;
+    margin-left: 5px;
+    margin-right: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    }
+
+.texto {
+    font-weight: 700;
+    font-size: 16px;
+    padding: 30px;
+}
+.texto p {
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fc200c;
+    text-align: center;
+}
+
+.section_interior{
+    width: 491px;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+footer {
+    display: flex;
+    background-color: #000000;
+    color: #f3f3f3;
+    padding: 30px;
+}
+ul{
+    list-style: none;
+}
+#logo_inferior {
+    padding: 20px;    ;
+}
+
+.li_promo {
+    padding: 10px;
+}
+
+#lista_promo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;    
+    margin: 20px;
+    font-size: 16px;
+}
