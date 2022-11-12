@@ -25,10 +25,13 @@ body {
   padding-left: 100px;
   padding-right: 60px;
 }
-
+#ofertas {
+  color: #f3f3f3;
+}
 #lista {
   display: flex;
   list-style: none;
+  color: #f3f3f3;
 }
 
 #lista li {
@@ -183,7 +186,7 @@ p {
   font-size: 9px;
   margin: 5px;
 }
-.entry ::placeholder {
+.contact ::placeholder {
   color: #ffffff;
 }
 /*TEXTOS*/
