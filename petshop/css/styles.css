@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .container {
+    width: 1024px;
+  }
+  
+  /* textos */
+  
+  .topSuperior {
+    height: 12px;
+    color: #f3f3f3;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 10px;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 60px;
+  }
+  
+  #lista {
+    display: flex;
+    list-style: none;
+  }
+  
+  #lista li {
+    padding-left: 15px;
+  }
+  
+  .pawprint {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    padding-top: 20px;
+  }
+  
+  .navbar {
+    color: #f3f3f3;
+    font-weight: 400;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-right: 45px;
+  }
+  .navbar img {
+    width: 15px;
+    height: 14px;
+  }
+  .navbar li {
+    padding-left: 20px;
+  }
+  
+  .productos {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  #comederosDescuento {
+    display: flex;
+    align-items: center;
+  
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    position: absolute;
+  
+    left: 740px;
+    top: 303px;
+  }
+  #rectangleComederos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 95px;
+    height: 19px;
+    left: 770px;
+    top: 340px;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    width: 141px;
+    height: 49px;
+    background: #f0a83e;
+    border-radius: 5px;
+  }
+  
+  #placerTenerte {
+    background-color: #ffffff;
+    padding: 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    position: absolute;
+    border-radius: 5px;
+    left: 640px;
+    top: 238px;
+  }
+  
+  #destacado {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    padding: 10px;
+  }
+  #itemsDestacados {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  article {
+    margin: 10px;
+  }
+  p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+  
+    color: #3c2313;
+  }
+  
+  #itemsDestacados span {
+    padding: 10px;
+  }
+  
+  .texto_imagen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -50px;
+  }
+  .price {
+    color: #f0a83e;
+  }
+  .contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 70px;
+  }
+  .inline {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  
+  .entry {
+    width: 340px;
+    height: 40px;
+    padding: 10px;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 9px;
+    margin: 5px;
+  }
+  .entry ::placeholder {
+    color: #ffffff;
+  }
+  /*TEXTOS*/
+  
+  /*  ----- logo  ----- */
+  .logotext {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #3c2313;
+  }
+  
+  .logotext2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: whitesmoke;
+  }
+  
+  #catdog2 {
+    color: #f0a83e;
+  }
+  
+  #catdog {
+    color: whitesmoke;
+  }
+  
+  .topSuperior {
+    height: 20px;
+    background-color: black;
+    color: whitesmoke;
+  }
+  
+  #lineaDer {
+    text-align: right;
+  }
+  
+  .barraSuperior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1024px;
+    height: 62px;
+    background-color: #f0a83e;
+    padding-left: 50px;
+  }
+  
+  .barraInferior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0a83e;
+    color: whitesmoke;
+    height: 60px;
+  }
+  .suscripcion {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+  
+   }
+  
+   .suscripcion p {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 7px;
+  
+   }
+  
+   #userMail {
+    width: 271px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 9px;
+    color:#a0a0a0;
+    border-radius: 15px;
+    padding-left: 10px;
+   }
+  
+   #subs {
+    width: 70px;
+    height: 34px;
+    background-color: #3C2313;  
+    font-weight: 700;
+    font-size: 9px;
+    color:#ffffff;
+    border-radius: 15px;
+    text-align: center;
+    margin-right: 40px;
+  
+  }
+  
+  
+  .robo {
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke;
+    background-color: #3C2313;
+    padding:20px 70px
+  
+  }
+  
+  .listafooter {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+  .listafooter p{
+    color: #8A8787;
+    font-weight: 700;
+    font-size: 10px;
+    
+  }
+  
+  
+  .entry {
+    width: 340px;
+    height: 40px;
+    background: #3c2313;
+    color: #ffffff;
+    border-radius: 15px;
+  }
+  
+  .reset {
+    width: 110px;
+    height: 34px;
+    background: #8a8787;
+    border-radius: 15px;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  
+  .send {
+    width: 110px;
+    height: 34px;
+    background: #f0a83e;
+    border-radius: 15px;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  #suscribete {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+  }
+  #userName {
+    /* Rectangle 16 */
+  
+    width: 271px;
+    height: 40px;
+    background: #ffffff;
+    border-radius: 15px;
+  }
+  .bottomBar {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+  }
+  .icon {
+    width: 58px;
+    height: 57px;
+  }
+  
