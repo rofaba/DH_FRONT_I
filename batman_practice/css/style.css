@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 
 * {
   padding: 0;
@@ -7,14 +7,13 @@
 }
 body {
   /* background-color: #e5e5e5; */
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   width: 2056px;
-
 }
 
 .barraSuperior {
-  display:flex;
+  display: flex;
   font-size: 48px;
   background-color: #d1891c;
   color: #333333;
@@ -32,11 +31,10 @@ body {
   height: 162px;
   padding: 20px;
   font-size: 72px;
-
 }
 
 .personajes {
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
@@ -45,8 +43,11 @@ body {
   display: flex;
   flex-direction: column;
   width: 805px;
-  height: 1364px;
-  
+  height: 1320px;
+  border-radius: 15px;
+  margin-top: 80px;
+  margin-bottom: 60px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 #personajeBatman {
@@ -66,6 +67,22 @@ body {
   padding-bottom: 15px;
 }
 
+#titulo_quinn {
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 64px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+#fondoBatman,
+#fondoMaravilla,
+#fondoSuperman,
+#fondoHarley {
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
 #heart {
   position: relative;
   top: 120px;
@@ -83,13 +100,8 @@ body {
   font-size: 36px;
   position: relative;
   top: -360px;
-  text-align:center;
+  text-align: center;
 }
-
-
-
-
-
 
 #maravilla_image {
   width: 125px;
@@ -98,7 +110,6 @@ body {
   top: 325px;
   left: 505px;
   z-index: 10;
-
 }
 .superman_img {
   width: 300px;
@@ -106,31 +117,6 @@ body {
   border-radius: 10px;
 }
 
-
-/* 
-#heart2 {
-  position: absolute;
-  top: 20px;
-  left: 25px;
-}
-
-#heart3 {
-  position: absolute;
-  top: 20px;
-  left: 25px;
-} */
-
-
-
-
-/* 
-#harley {
-  text-transform: capitalize;
-  font-weight: 400;
-  text-align: center;
-  font-size: 30px;
-  padding-bottom: 15px;
-} */
 button {
   background-color: #00669f;
   color: #f3f3f3;
@@ -144,11 +130,37 @@ button {
   margin: 50px 60px 0px;
 }
 footer {
+  display: flex;
+  justify-content: end;
+  align-items: center;
   background-color: #00669f;
-  padding: 15px;
+
   color: #fff9f9;
-  width: 1024px;
-  height: 51px;
+  width: 2056px;
+  height: 162px;
+  font-size: 36px;
   position: relative;
-  top: 750px;
+  top: 200px;
+}
+footer p {
+  padding-right: 300px;
+}
+.logoGit {
+  padding-right: 100px;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #00669f;
+  color: #ffffff;
+  font-size: 96px;
+  position: absolute;
+  top: 1650px;
+  left: 1850px;
+  z-index: ;
 }
