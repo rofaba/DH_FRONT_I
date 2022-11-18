@@ -165,11 +165,12 @@ footer p {
   
 }
 
-@media (max-width: 780px) {
+@media (max-width: 1279px) {
 
  .personajes {
     display: flex;
     flex-direction: column;
+    align-items: center
  }
   #harleyCard {
     display: none;
