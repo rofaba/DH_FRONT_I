@@ -64,7 +64,7 @@ body {
   font-weight: 400;
   font-size: 64px;
   text-align: center;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
 }
 
 #titulo_quinn {
@@ -145,8 +145,8 @@ footer {
 footer p {
   padding-right: 300px;
 }
-.logoGit {
-  padding-right: 100px;
+#logoGit {
+  margin-right: 100px;
 }
 
 .circle {
@@ -160,7 +160,18 @@ footer p {
   color: #ffffff;
   font-size: 96px;
   position: absolute;
-  top: 1650px;
+  top: 1660px;
   left: 1850px;
-  z-index: ;
+  
+}
+
+@media (max-width: 780px) {
+
+ .personajes {
+    display: flex;
+    flex-direction: column;
+ }
+  #harleyCard {
+    display: none;
+  }
 }
