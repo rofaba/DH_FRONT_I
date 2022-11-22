@@ -232,7 +232,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1024px;
+  width: 100%;
   height: 62px;
   background-color: #f0a83e;
   padding-left: 50px;
@@ -245,6 +245,11 @@ p {
   background-color: #f0a83e;
   color: whitesmoke;
   height: 60px;
+}
+
+#imagen_bowl {
+  width: 100%;
+  object-fit: cover;
 }
 .suscripcion {
   display: flex;
@@ -284,12 +289,12 @@ p {
 
 }
 
-
 .robo {
   font-family: "Roboto", sans-serif;
   font-size: 50px;
 }
 .footer {
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -297,6 +302,10 @@ p {
   background-color: #3C2313;
   padding:20px 70px
 
+}
+
+#menu_icon {
+  display:none
 }
 
 .listafooter {
@@ -379,5 +388,32 @@ p {
 .redir {
   position:relative;
   left: 65px;
+
+}
+
+@media (max-width: 1024px) {
+
+
+.container {
+  width: 100%;
+}
+
+  .topSuperior {
+    display:none;
+  }
+
+.navbar {
+  display: none
+}
+
+#menu_icon {
+  display:block;
+  padding-right: 30px;
+
+}
+
+#imagen_bowl {
+height: 440px;
+}
 
 }
