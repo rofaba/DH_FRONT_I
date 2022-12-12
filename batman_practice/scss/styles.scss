@@ -1,64 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap";
+@import "reset";
+@import "variables";
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
 body {
-  /* background-color: #e5e5e5; */
-  font-family: 'Roboto', sans-serif;
+  font-family: $font-family_1;
   font-weight: 400;
-  width: 2056px;
+  width: $w_2056;
 }
-
 .barraSuperior {
   display: flex;
   font-size: 48px;
-  background-color: #d1891c;
-  color: #333333;
+  background-color: $background-color_1;
+  color: $color_1;
   padding-top: 10px;
   padding-left: 20px;
-  width: 2056px;
+  width: $w_2056;
   height: 61px;
   align-items: center;
 }
 .segundaBarra {
-  background-color: #00669f;
-  color: #f3f3f3;
+  background-color: $background-color_2;
+  color: $color_2;
   box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
-  width: 2056px;
+  width: $w_2056;
   height: 162px;
   padding: 20px;
   font-size: 72px;
 }
-
 .personajes {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-}
 
-.heroeCard {
-  display: flex;
-  flex-direction: column;
-  width: 805px;
-  height: 1320px;
-  border-radius: 15px;
-  margin-top: 80px;
-  margin-bottom: 60px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
+  // nesting max - 3 -------------------------
 
-#personajeBatman {
-  width: 360px;
-  border-radius: 50%;
-  position: relative;
-  top: -180px;
-  left: 200px;
-  z-index: 10;
-}
+  .heroeCard {
+    display: flex;
+    flex-direction: column;
+    width: 805px;
+    height: 1320px;
+    border-radius: 15px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
+    .texto {
+      width: 805px;
+      height: 872px;
+      padding: 200px 40px 70px;
+      background-color: $background-color_3;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 36px;
+      position: relative;
+      top: -360px;
+      text-align: center;
+    }
+    #heart {
+      position: relative;
+      top: 120px;
+      left: 50px;
+      width: 70px;
+    }
+  }
+}
 #titulo {
   text-transform: uppercase;
   font-weight: 400;
@@ -74,6 +79,14 @@ body {
   text-align: center;
   padding-bottom: 15px;
 }
+#personajeBatman {
+  width: 360px;
+  border-radius: 50%;
+  position: relative;
+  top: -180px;
+  left: 200px;
+  z-index: 10;
+}
 
 #fondoBatman,
 #fondoMaravilla,
@@ -81,26 +94,6 @@ body {
 #fondoHarley {
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
-}
-
-#heart {
-  position: relative;
-  top: 120px;
-  left: 50px;
-  width: 70px;
-}
-
-.texto {
-  width: 805px;
-  height: 872px;
-  padding: 200px 40px 70px;
-  background-color: #f3f3f3;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
-  position: relative;
-  top: -360px;
-  text-align: center;
 }
 
 #maravilla_image {
@@ -116,10 +109,9 @@ body {
   height: 150px;
   border-radius: 10px;
 }
-
 button {
-  background-color: #00669f;
-  color: #f3f3f3;
+  background-color: $background-color_2;
+  color: $color_2;
   font-size: 36px;
   font-weight: 400;
   text-align: center;
@@ -133,20 +125,19 @@ footer {
   display: flex;
   justify-content: end;
   align-items: center;
-  background-color: #00669f;
-
-  color: #fff9f9;
-  width: 2056px;
+  background-color: $background-color_2;
+  color: $color_3;
+  width: $w_2056;
   height: 162px;
   font-size: 36px;
   position: relative;
   top: 200px;
-}
-footer p {
-  padding-right: 300px;
-}
-#logoGit {
-  margin-right: 100px;
+  p {
+    padding-right: 300px;
+  }
+  #logoGit {
+    margin-right: 100px;
+  }
 }
 
 .circle {
@@ -156,22 +147,22 @@ footer p {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  background-color: #00669f;
-  color: #ffffff;
+  background-color: $background-color_2;
+  color: $color_4;
   font-size: 96px;
   position: absolute;
   top: 1660px;
   left: 1850px;
-  
 }
 
-@media (max-width: 1279px) {
+// ----------- media query ------------
 
- .personajes {
+@media (max-width: 1279px) {
+  .personajes {
     display: flex;
     flex-direction: column;
-    align-items: center
- }
+    align-items: center;
+  }
   #harleyCard {
     display: none;
   }

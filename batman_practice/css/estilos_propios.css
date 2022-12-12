@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background-color: #e5e5e5; */
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  width: 2056px;
+}
+
+.barraSuperior {
+  display: flex;
+  font-size: 48px;
+  background-color: #d1891c;
+  color: #333333;
+  padding-top: 10px;
+  padding-left: 20px;
+  width: 2056px;
+  height: 61px;
+  align-items: center;
+}
+.segundaBarra {
+  background-color: #00669f;
+  color: #f3f3f3;
+  box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+  width: 2056px;
+  height: 162px;
+  padding: 20px;
+  font-size: 72px;
+}
+
+.personajes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  
+}
+
+.heroeCard {
+  display: flex;
+  flex-direction: column;
+  width: 805px;
+  height: 1320px;
+  border-radius: 15px;
+  margin-top: 80px;
+  margin-bottom: 60px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#personajeBatman {
+  width: 360px;
+  border-radius: 50%;
+  position: relative;
+  top: -180px;
+  left: 200px;
+  z-index: 10;
+}
+
+#titulo {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 64px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#titulo_quinn {
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 64px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+#fondoBatman,
+#fondoMaravilla,
+#fondoSuperman,
+#fondoHarley {
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+#heart {
+  position: relative;
+  top: 120px;
+  left: 50px;
+  width: 70px;
+}
+
+.texto {
+  width: 805px;
+  height: 872px;
+  padding: 200px 40px 70px;
+  background-color: #f3f3f3;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  position: relative;
+  top: -360px;
+  text-align: center;
+}
+
+#maravilla_image {
+  width: 125px;
+  border-radius: 50%;
+  position: relative;
+  top: 325px;
+  left: 505px;
+  z-index: 10;
+}
+.superman_img {
+  width: 300px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #00669f;
+  color: #f3f3f3;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 17.58px;
+  width: 346px;
+  height: 114px;
+  padding: 10px 30px;
+  margin: 50px 60px 0px;
+}
+footer {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-color: #00669f;
+
+  color: #fff9f9;
+  width: 2056px;
+  height: 162px;
+  font-size: 36px;
+  position: relative;
+  top: 200px;
+}
+footer p {
+  padding-right: 300px;
+}
+#logoGit {
+  margin-right: 100px;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #00669f;
+  color: #ffffff;
+  font-size: 96px;
+  position: absolute;
+  top: 1660px;
+  left: 1850px;
+  
+}
+
+@media (max-width: 1279px) {
+
+ .personajes {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+ }
+  #harleyCard {
+    display: none;
+  }
+}
